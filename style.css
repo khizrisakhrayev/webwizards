@@ -5,6 +5,44 @@ body{
     background-position: center;
     background-size: cover;
 } 
+/* Navigation bar */
+.menu{
+    top: 0px;
+    width:70%;
+    float: left;
+    height: 75px;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 15px;
+    font-size: 15px;
+    width :120px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#clr1, #clr2, #clr3, #clr4{
+    color: darkorange;
+}
+ul li a:hover{
+    color:darkorange;
+    text-decoration: underline;
+}
+ul li:hover{
+    transform: translate(2px,2px);
+}
 .logo{
     height: 60px;
     width: 80px;
@@ -12,56 +50,19 @@ body{
 .logo2{
     height: 70px;
     width: 70px;
-    margin-left: 20px;
+    margin-left: 5%;
 }
 .main{
     color:aliceblue;
 }
-.menu{
-    top: 0px;
-    width:900px;
-    float: left;
-    height: 75px;
-    margin-left: 100px;
-    margin-right: 10px;
+a:link{
+    color:white;
 }
-html{
-    scroll-behavior: smooth;
+a:visited{
+    color:white;
 }
-.button-photo{
-    width: 33px;
-    height: 30px;
-}
-.scroll-to-top{
-    padding: 0;
-    margin: 0;
-    position: fixed;
-    bottom: 1%;
-    right: 1%;
-    background-color: grey;
-    border: 2px solid black;
-    border-radius: 30%;
-}
-.text{
-    width:100%;
-
-    float: left;
-    color: white;
-    text-align: center;
-    font-size: 23px;
-    text-shadow: 4px 4px 3px black;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.text2{
-    width:100%;
-
-    float: left;
-    color: white;
-    text-align: center;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 4px 4px 3px black;
-}
+/**********************************************/
+/*Team members style*/
 .aboutPerson{
     width:55%;
     height: 100%;
@@ -91,6 +92,72 @@ html{
     border: 5px solid grey;
     border-radius: 10px;
 }
+/**************************************************/
+/*Scroll to top button design*/
+html{
+    scroll-behavior: smooth;
+}
+.button-photo{
+    width: 33px;
+    height: 30px;
+}
+.scroll-to-top{
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 30%;
+}
+/***************************************************/
+.text{
+    width:100%;
+
+    float: left;
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    text-shadow: 4px 4px 3px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text2{
+    width:100%;
+
+    float: left;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 4px 4px 3px black;
+}
+.heading{
+    width: 100%;
+    font-size: 40px;
+    text-shadow: 4px 4px 3px black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.video{
+    width:86%;
+    margin-left: 7%;
+    float: left;
+}
+.media{
+    box-sizing: border-box;
+    padding: 50px 8%;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    left: 30%;
+    grid-template-columns: repeat(auto-fit,minmax(400px,3fr));
+    grid-gap: 30px;
+}
+.media img{
+    width: 100%;
+}
 .text3{
     width:100%;
 
@@ -110,38 +177,6 @@ html{
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
-ul{
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-ul li{
-    list-style: none;
-    margin-left: 70px;
-    margin-top: 15px;
-    font-size: 15px;
-    width: 120px;
-}
-ul li a{
-    text-decoration: none;
-    color: white;
-    font-family: sans-serif;
-    font-weight: bold;
-}
-#clr1, #clr2, #clr3, #clr4{
-    color: darkorange;
-}
-ul li a:hover{
-    color:darkorange;
-    text-decoration: underline;
-}
-ul li:hover{
-    transform: translate(2px,2px);
-}
-a:link{
-    color:black;
-}
-a:visited{
-    color:white;
-}
+
+
+
