@@ -1,3 +1,4 @@
+/*Background style*/
 body{
     background-image: url(media/background.jpg);
     background-repeat: no-repeat;
@@ -112,6 +113,7 @@ html{
     border-radius: 30%;
 }
 /***************************************************/
+/*Text designs*/
 .text{
     width:100%;
 
@@ -122,15 +124,14 @@ html{
     text-shadow: 4px 4px 3px black;
     font-family: Arial, Helvetica, sans-serif;
 }
-.text2{
+.text3{
     width:100%;
-
     float: left;
     color: white;
     text-align: center;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;
     text-shadow: 4px 4px 3px black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .heading{
     width: 100%;
@@ -140,6 +141,8 @@ html{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
+/****************************************************/
+/*Design of Media*/
 .video{
     width:86%;
     height: 600px;
@@ -159,25 +162,8 @@ html{
 .media img{
     width: 100%;
 }
-.text3{
-    width:100%;
-
-    float: left;
-    color: white;
-    text-align: center;
-    font-size: 33px;
-    text-shadow: 4px 4px 3px black;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.text4{
-    width:100%;
-
-    float: left;
-    color: white;
-    text-align: center;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+/**********************************************/
+/*Design of Codecademy Profile table*/
 .codecademy_table{
     float: left;
     display: flex;
@@ -185,4 +171,21 @@ html{
     align-items: center;
     width: 100%;
     font-size: 30px;
+}
+.codecademy_table table{
+    border: 1;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.codecademy_table tr{
+    background-color: lightgrey;
+}
+.codecademy_table a{
+    align-items: center;
+    color: black;
+}
+.table_head th{
+    background-color: grey;
+    color: white;
+    align-items: center;
 }
